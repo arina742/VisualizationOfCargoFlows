@@ -1,0 +1,73 @@
+body { 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+
+        #canvasContainer{
+          padding-right: 1250px;
+          padding-bottom: 600px;
+       }
+       
+
+ canvas {
+ 
+            border: 1px solid #000;
+            position: absolute;
+            z-index: 0;
+}
+
+        .menu-button {
+            position: absolute;
+            background-color: #1b83bf;
+            color: white;
+            font: 24px Arial;
+        }
+
+        .menu-item {
+            position: absolute;
+            background-color: #d1eeff;
+            color: black;
+            font: 16px Arial;
+        }
+
+.stations{
+  color: black;
+   font: bold 26px Arial;
+   align-items: center;
+}
+
+.streamData{
+  color: black;
+   font: bold 10px Arial;
+}
+
+.streamDataAll{
+  color: black;
+   font: bold 10px Arial;
+}
+
+.symbols{
+  color: black;
+   font: bold 10px Arial;
+}
+
+.stationsRect{
+  color: rgba(255, 255, 255, 0.2);
+  align-items: center;
+}
+
+.stationsRectText{
+  color: black;
+  font: bold 20px Arial;
+}
+    
+.symbolsUsl{
+  color: black;
+  font: bold 14px Arial;
+  align-items: left;
+  
+}
